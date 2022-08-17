@@ -1,4 +1,4 @@
-// add event handler of the withdraw button
+// add event handler for the withdraw button
 document.getElementById("withdraw-btn").addEventListener("click", function () {
   // step-1: get the value of withdraw field by using function
   const newWithdrawAmout = getInputFieldValueById("withdraw-field");
